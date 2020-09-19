@@ -1,0 +1,25 @@
+\section{Repeating Actions with Loops}
+\begin{multicols*}{2}
+
+\vspace{-4mm}
+\begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos,fontsize=\small]{python}
+fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
+
+figure_data = [
+    {'title': 'Daily mean',      'numbers': numpy.mean(data, axis=0)}
+    , {'title': 'Daily maximum', 'numbers': numpy.max(data, axis=0)}
+    , {'title': 'Daily minimum', 'numbers': numpy.min(data, axis=0)}
+]
+
+for seqno in range(0,3):
+    this_axes = fig.add_subplot(1, 3, seqno + 1)
+    this_axes.set_xlabel('day')
+    this_axes.set_ylabel('inflammation')
+    this_axes.set_title(figure_data[seqno]['title'])
+    this_axes.plot(figure_data[seqno]['numbers'])
+
+fig.tight_layout()
+matplotlib.pyplot.savefig('inflammation_figure.pdf')
+\end{minted}
+
+\end{multicols*}

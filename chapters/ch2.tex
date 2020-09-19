@@ -1,0 +1,64 @@
+\section{Analyzing Patient Data}
+\begin{multicols*}{2}
+\subsection{Loading the ``Inflammation'' CSV Files}
+\par
+The Software Carpentry Python course involves a very simple case study involve a set of CSV (comma-separated values) data files. CSV files are simply text files where each line of text is a new role and each line is formatted like \texttt{0.5,52.2,12.1} (hence \textit{comma-separated} values). In our ``Inflammation'' case study, which is from a medical context, each row is an arthritis patient and each column is a day of data about the severity of inflammation that these patients are experiencing.
+\par
+Because this is a CSV file that is all numerical, we can use the numbers library for Python (\texttt{numpy}):
+
+\vspace{-4mm}
+\begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos]{python}
+import numpy as np
+data = np.loadtxt(fname='inflammation-01.csv', delimiter=',')
+print(data.shape) # returns (60, 40) = 60 rows, 40 columns
+\end{minted}
+
+\par
+Please note that this will not work unless you have numpy installed. I recommend doing this using a virtual environment (venv):
+
+\vspace{-4mm}
+\begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos]{bash}
+python3 -m venv .venv          # create the venv
+source .venv/bin/activate      # activate the venv
+python3 -m pip install numpy   # install numpy inside the venv
+python3                        # do stuff in Python
+deactivate                     # deactivate the venv when done
+\end{minted}
+
+\subsection{Getting Data Points and Ranges}
+\begin{myitemize}
+    \item Arrays in Python are indexed from 0. This means that, for example, that what we would usually call the ``first'' column is, in Python, column ``0''; the ``second'' column is column ``1'', etc.
+    \item You can get a data point (``cell'' in spreadsheet terminology) by \textbf{specifying coordinates as ``row, column''}. For example, what we might think of in Microsoft Excel as cell ``C5'' (= ``fifth row, third column'' = row ``4'', column ``2'' in Python) can be obtained like so:
+\vspace{-2mm}
+\begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos]{python}
+data_c5 = data[4, 2]
+\end{minted}
+    \item You can get a range by specifying the starting point and that which is \textit{after} the ending point. This could be quite intuitive in the sense that \mintinline{python}{data[0:4, 0:10]} means ``first 4 rows, first 10 columns'', but since you can specify ranges that don't start from 0, it could also take some more mental arithmetic to be sure what you're doing (e.g. \mintinline{python}{data[5:8, 3:15]} = rows 5 to 7 (0-indexed), columns 3 to 14 (0-indexed)).
+    \item You can also have unbounded ranges, e.g. \mintinline{python}{data[ :8, 3: ]} = all rows up to and including row 7, all rows including and after column 3.
+
+\end{myitemize}
+
+\subsection{Descriptive Statistics}
+Given a numpy array, you can print the usual descriptive statistics:
+
+\vspace{-4mm}
+\begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos]{python}
+print('minimum inflammation:', np.min(data))
+print('maximum inflammation:', np.max(data))
+print('mean:', np.mean(data))
+print('standard deviation:', np.std(data))
+\end{minted}
+
+Each of those operations (min, max, mean, std) returns a signle value. However, you could also generate an array of values. For example, maybe you want a list of the mean inflammation scores for each patient (i.e., mean across rows); or you might want a list of mean inflammation scores for each day (i.e., mean across columns).
+
+To do this, we specify a value for \texttt{axis}:
+
+\vspace{-4mm}
+\begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos]{python}
+avg_across_days = numpy.mean(data, axis=0)
+avg_for_each_patient = numpy.mean(data, axis=1)
+\end{minted}
+
+You basically just have to remember that \textbf{``axis 0'' means columns and ``axis 1'' means rows}, even though coordinates are specified as ``row, column''.
+
+\end{multicols*}

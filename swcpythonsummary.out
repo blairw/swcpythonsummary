@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Python Fundamentals}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Variables}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Data Types}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Additional Tips}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Analyzing Patient Data}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Loading the ``Inflammation'' CSV Files}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Getting Data Points and Ranges}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Descriptive Statistics}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Visualizing Tabular Data}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Heatmap with imshow}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Graphing with plot}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Drawing a figure}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Repeating Actions with Loops}{}% 13

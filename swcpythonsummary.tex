@@ -1,0 +1,71 @@
+\documentclass[landscape, hidelinks,10pt]{article}
+
+% BODY TEXT
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{a4paper,margin=2cm}
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+
+% COMPACT LIST
+\newenvironment{myitemize}
+{ \begin{itemize}
+	\setlength{\itemsep}{2pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}     }
+{ \end{itemize}                  }
+
+% CODE SNIPPETS
+\usepackage{xcolor}
+\usepackage{minted}
+
+% URLs
+\usepackage{hyperref}
+
+% MATH
+\usepackage{amssymb}
+
+% OTHER
+
+\usepackage{graphicx}
+
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0em}
+
+
+\begin{document}
+
+\begin{multicols*}{2}
+
+
+\title{Software Carpentry Python\\Summary Document}
+\author{Blair Wang\\hello@blair.wang}
+
+\maketitle
+
+\par
+This document is written to summarise (and, in some cases, extend) the ``Programming with Python'' Software Carpentry course. Each of the twelve parts of that course are summarised in this document in one A4 page.
+
+\par
+The original materials for that Software Carpentry course can be found online at \url{https://swcarpentry.github.io/python-novice-inflammation/}. The source code for this document can be found online at \url{https://github.com/blairw/swcpythonsummary}.
+
+\par
+Both the original materials and this summary document are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+\columnbreak
+\tableofcontents
+
+\end{multicols*}
+
+\raggedright
+\include{chapters/ch1}
+\include{chapters/ch2}
+\include{chapters/ch3}
+\include{chapters/ch4}
+
+\end{document}
