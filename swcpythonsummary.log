@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.26)  19 SEP 2020 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.26)  19 SEP 2020 16:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -753,14 +753,137 @@ Package pdftex.def Info: graphics/inflammation_figure.pdf  used on input line 4
 
 
 (./chapters/ch4.tex
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/D86A49F84E0294C07581418CE9E96FE5FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/7D738AE5E49AF6224628E889E30C0DF2FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/2870F074706B0DF7CE9A5F24E0726948FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/BFDD14487827B806DFC0B0E3C5E38A54FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/D86A49F84E0294C07581418CE9E96FE5FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/7D738AE5E49AF6224628E889E30C0DF2FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/2870F074706B0DF7CE9A5F24E0726948FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/383DFB1D821C8B0CAD8919D40D5A7940FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
 \openout3 = `swcpythonsummary.pyg'.
 
 
-(./_minted-swcpythonsummary/3996512CF6A2B29A153E6DE73BA47BCBFA2C0AB988BFBD82898
+(./_minted-swcpythonsummary/11B68EE74234548C893EC9A0FDAA5596FA2C0AB988BFBD82898
 002139333BD5D.pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 10.
-) [5
+)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/ADF3E8E676699D733F7921EF767D21DFFA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/95EDCECFCAE10901ED1770950F6B52F8FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/FB9FDB8A84584E9CBD0469C13DEDFA56FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/59279797B03F72601BFD0AA8833E2EE8FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
+2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/67FDB9F4173801B0ABB2504FFCA32563FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/59279797B03F72601BFD0AA8833E2EE8FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/ADF3E8E676699D733F7921EF767D21DFFA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/08FBE212D9CAB9E7E236C2B169B8C945FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/59279797B03F72601BFD0AA8833E2EE8FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/383DFB1D821C8B0CAD8919D40D5A7940FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/41954A626C8D62C28882E509CD1B96DFFA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/461D029FB99682E6559E2884D9351326FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/DA8DB8C0113689154CC64A11CECD3F41FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout4 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/091EB973805BE0AE3977E526934579B5FA2C0AB988BFBD82898
+002139333BD5D.pygtex)
+\openout3 = `swcpythonsummary.pyg'.
+
+
+(./_minted-swcpythonsummary/C308F82A4DF4001DDF74CCE1A87925EEFA2C0AB988BFBD82898
+002139333BD5D.pygtex) [5
 
 
 ])
@@ -776,10 +899,10 @@ runsystem(rm swcpythonsummary.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 10810 strings out of 480608
- 187953 string characters out of 5903630
- 511614 words of memory out of 5000000
- 26357 multiletter control sequences out of 15000+600000
+ 10921 strings out of 480608
+ 196435 string characters out of 5903630
+ 516810 words of memory out of 5000000
+ 26404 multiletter control sequences out of 15000+600000
  541853 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,37p,831b,555s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -799,7 +922,7 @@ ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on swcpythonsummary.pdf (5 pages, 186781 bytes).
+Output written on swcpythonsummary.pdf (5 pages, 195620 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams

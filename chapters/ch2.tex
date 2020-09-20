@@ -4,7 +4,7 @@
 \par
 The Software Carpentry Python course involves a very simple case study involve a set of CSV (comma-separated values) data files. CSV files are simply text files where each line of text is a new role and each line is formatted like \texttt{0.5,52.2,12.1} (hence \textit{comma-separated} values). In our ``Inflammation'' case study, which is from a medical context, each row is an arthritis patient and each column is a day of data about the severity of inflammation that these patients are experiencing.
 \par
-Because this is a CSV file that is all numerical, we can use the numbers library for Python (\texttt{numpy}):
+Because this is a CSV file that is all numerical, we can use the numbers library for Python (\texttt{numpy}) to load the CSV file into a \textbf{2D array}. A array is simply a list of things, so a 2D array is a list of lists. This can represent a table structure like a CSV file: a list of row data, and each row datum is a list of values across the columns.
 
 \vspace{-4mm}
 \begin{minted}[xleftmargin=6mm,frame=lines,framesep=2mm,linenos]{python}
